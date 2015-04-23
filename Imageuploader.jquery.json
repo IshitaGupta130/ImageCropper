@@ -1,0 +1,30 @@
+{
+    "name": "Imageuploader",
+    "title": "jQuery Imageuploader",
+    "description": "A  simple jQuery plugin for cropping and uploading images",
+    "keywords": [
+        "jquery-plugins",
+        "Imageuploader"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Ishita Gupta",
+        "url": "https://github.com/IshitaGupta130"
+    },
+    "maintainers": [
+        {
+            "name": "Ishita Gupta",
+            "url": "https://github.com/IshitaGupta130"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+   
+    "dependencies": {
+        "jquery": ">=1.4"
+    }
+}

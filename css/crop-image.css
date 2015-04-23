@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+#myimg{
+         width:inherit;
+         height:inherit;
+         z-index:600;
+         position:absolute;
+         }
+         #imgpreview{
+         width:200px;
+         height:200px;
+         border:2px solid #03F;
+		 overflow:hidden;
+		
+         }
+      
+         .ui-resizable-nw, .ui-resizable-ne, .ui-resizable-sw, .ui-resizable-se, .ui-resizable-n, .ui-resizable-e, .ui-resizable-s, .ui-resizable-w {
+         width: 5px;
+         height: 5px;
+         background-color: #ffffff;
+         border: 1px solid #000000;
+         position: absolute;
+         }
+         .ui-resizable-nw {
+         left: -5px;
+         top: -5px;
+         cursor: nw-resize;
+         }
+         .ui-resizable-ne {
+         top: -5px;
+         right: -5px;
+         cursor: ne-resize;
+         }
+         .ui-resizable-sw {
+         bottom: -5px;
+         left: -5px;
+         cursor: sw-resize;
+         }
+         .ui-resizable-se {
+         bottom: -5px;
+         right:-5px;
+         cursor: se-resize;
+         }
+         .ui-resizable-n {
+         top: -5px;
+         left:50%;
+         cursor: n-resize;
+         }
+         .ui-resizable-s {
+         bottom: -5px;
+         left: 50%;
+         cursor: s-resize;
+         }
+         .ui-resizable-w {
+         left:-5px;
+         top:calc(50% - 5px);
+         cursor: w-resize;
+         }
+         .ui-resizable-e {
+         right:-5px;
+         top:calc(50% - 5px);
+         cursor: e-resize;
+         }
+         #crop-node {
+         width: 80px;
+         height: 80px;
+         border: 1px dotted #999;
+         position: absolute;
+         left:70px;
+         top: 80px;
+         cursor: move;
+         z-index:6000;
+         }
+         .block{
+         position: absolute;
+         opacity: 0.5;
+         z-index: 5000;
+         background-color: #000;
+         }
+         .block-l {
+         left:0px;
+         }
+         .block-r {
+         right: 0px;
+         }
+         .block-t {
+         top: 0;
+         width: 100%;
+         }
+         .block-b {
+         bottom: 0;
+         width: 100%;
+         }
