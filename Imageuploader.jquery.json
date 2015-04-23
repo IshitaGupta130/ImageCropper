@@ -4,9 +4,10 @@
     "description": "A  simple jQuery plugin for cropping and uploading images",
     "keywords": [
         "jquery-plugins",
-        "Imageuploader"
+        "Imageuploader",
+		"image","jquery"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Ishita Gupta",
         "url": "https://github.com/IshitaGupta130"
